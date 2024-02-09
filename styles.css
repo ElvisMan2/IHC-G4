@@ -162,3 +162,32 @@ body {
       height: 170px;
     }
    }
+
+
+   .blue-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .blue-table td,
+  .blue-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .blue-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .blue-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .blue-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007bff;
+    color: white;
+  }
+  
